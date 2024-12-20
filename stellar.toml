@@ -1,0 +1,23 @@
+ACCOUNTS = ["GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"]
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+[DOCUMENTATION]
+ORG_NAME = "Etherfuse"
+ORG_DBA = "Etherfuse"
+ORG_URL = "https://etherfuse.com"
+ORG_TWITTER = "etherfuse"
+ORG_GITHUB = "etherfuse"
+
+[[CURRENCIES]]
+code = "USTRY"
+issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+name = "Etherfuse USTRY"
+desc = "Our US Treasury Notes Stablebond offers unparalleled security and peace of mind. Backed by the full faith and credit of the United States government, US Treasury Notes are among the safest investments available worldwide."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-ustry.png"
+
+[[CURRENCIES]]
+code = "CETES"
+issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+name = "Etherfuse CETES"
+desc = "Etherfuse CETES, officially known as Certificados de la Tesorería de la Federación, are Mexico's oldest short-term debt securities issued by the Ministry of Finance."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes.png"

@@ -30,3 +30,10 @@ issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse TESOURO"
 desc = "Brazilian Tesouros are issued by the Brazilian government. As Brazil is the largest and most liquid economy in Latin and South America, these notes are widely considered as a low-risk investment."
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-tesouro.png"
+
+[[CURRENCIES]]
+code = "CETESZ"
+issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+name = "Etherfuse CETES ZERO"
+desc = "A special use CETES token that will indefinitly stay at 0% APY"
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes0.png"

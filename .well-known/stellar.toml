@@ -3,10 +3,16 @@ NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 SIGNING_KEY = "GCGOC4BGGTMUPUF5QN25HYKAQ67LFFQLZGQP6MRNEPZ7BIQEWAPQWJGG"
 WEB_AUTH_ENDPOINT = "https://api.etherfuse.com/stellar-auth"
 
+[[PRINCIPALS]]
+name = "Etherfuse Team"
+email = "stablebond@etherfuse.com"
+
 [DOCUMENTATION]
 ORG_NAME = "Etherfuse"
 ORG_DBA = "Etherfuse"
 ORG_URL = "https://etherfuse.com"
+ORG_OFFICIAL_EMAIL = "stablebond@etherfuse.com"
+ORG_SUPPORT_EMAIL = "stablebond@etherfuse.com"
 ORG_TWITTER = "etherfuse"
 ORG_GITHUB = "etherfuse"
 
@@ -16,6 +22,12 @@ issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse USTRY"
 desc = "Our US Treasury Notes Stablebond offers unparalleled security and peace of mind. Backed by the full faith and credit of the United States government, US Treasury Notes are among the safest investments available worldwide."
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-ustry.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "US Treasury Notes"
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
 
 [[CURRENCIES]]
 code = "CETES"
@@ -23,6 +35,12 @@ issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse CETES"
 desc = "Etherfuse CETES, officially known as Certificados de la Tesorería de la Federación, are Mexico's oldest short-term debt securities issued by the Ministry of Finance."
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "Mexican CETES Bonds"
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
 
 [[CURRENCIES]]
 code = "TESOURO"
@@ -30,6 +48,12 @@ issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse TESOURO"
 desc = "Brazilian Tesouros are issued by the Brazilian government. As Brazil is the largest and most liquid economy in Latin and South America, these notes are widely considered as a low-risk investment."
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-tesouro.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "Brazilian Tesouro Bonds"
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
 
 [[CURRENCIES]]
 code = "MEX"
@@ -37,6 +61,12 @@ issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse MEX"
 desc = "A special use token that will indefinitely stay at 0% APY"
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-mex.png"
+anchor_asset = "MXN"
+anchor_asset_type = "fiat"
+is_asset_anchored = true
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
 
 [[CURRENCIES]]
 code = "CETESZ"
@@ -44,3 +74,9 @@ issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse CETES ZERO"
 desc = "A special use CETES token that will indefinitely stay at 0% APY"
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes0.png"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+anchor_asset = "MXN"
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"

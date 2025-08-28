@@ -32,6 +32,13 @@ desc = "Brazilian Tesouros are issued by the Brazilian government. As Brazil is 
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-tesouro.png"
 
 [[CURRENCIES]]
+code = "MEX"
+issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+name = "Etherfuse MEX"
+desc = "A special use token that will indefinitly stay at 0% APY"
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-mex.png"
+
+[[CURRENCIES]]
 code = "CETESZ"
 issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse CETES ZERO"

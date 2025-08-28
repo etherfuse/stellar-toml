@@ -35,12 +35,12 @@ image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-tesouro.p
 code = "MEX"
 issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse MEX"
-desc = "A special use token that will indefinitly stay at 0% APY"
+desc = "A special use token that will indefinitely stay at 0% APY"
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-mex.png"
 
 [[CURRENCIES]]
 code = "CETESZ"
 issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
 name = "Etherfuse CETES ZERO"
-desc = "A special use CETES token that will indefinitly stay at 0% APY"
+desc = "A special use CETES token that will indefinitely stay at 0% APY"
 image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes0.png"

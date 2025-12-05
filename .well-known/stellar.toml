@@ -80,3 +80,16 @@ anchor_asset = "MXN"
 status = "live"
 attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
 redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "EUROB"
+issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+name = "Etherfuse EUROB"
+desc = "Our European Government Bonds (EUROB) are a collection of fixed-income securities issued by countries in the European Union."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-eurob.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "European Government Bonds"
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"

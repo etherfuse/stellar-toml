@@ -93,3 +93,16 @@ anchor_asset = "European Government Bonds"
 status = "live"
 attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
 redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "KTB"
+issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+name = "Etherfuse KTB"
+desc = "The Korean Treasury Stablebond provides tokenized exposure to Korean sovereign debt through short-term Korean Treasury Bonds (KTBs)."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-ktb.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "Korean Treasury Bonds"
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"

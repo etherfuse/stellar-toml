@@ -1,0 +1,82 @@
+ACCOUNTS = ["GC3CW7EDYRTWQ635VDIGY6S4ZUF5L6TQ7AA4MWS7LEQDBLUSZXV7UPS4"]
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
+SIGNING_KEY = "SIGNING_KEY_HERE"
+WEB_AUTH_ENDPOINT = "https://api.sand.etherfuse.com/stellar-auth"
+
+[[PRINCIPALS]]
+name = "Etherfuse Team"
+email = "stablebond@etherfuse.com"
+
+[DOCUMENTATION]
+ORG_NAME = "Etherfuse"
+ORG_DBA = "Etherfuse"
+ORG_URL = "https://etherfuse.com"
+ORG_OFFICIAL_EMAIL = "stablebond@etherfuse.com"
+ORG_SUPPORT_EMAIL = "stablebond@etherfuse.com"
+ORG_TWITTER = "etherfuse"
+ORG_GITHUB = "etherfuse"
+
+[[CURRENCIES]]
+code = "USTRY"
+issuer = "GC3CW7EDYRTWQ635VDIGY6S4ZUF5L6TQ7AA4MWS7LEQDBLUSZXV7UPS4"
+name = "Etherfuse USTRY"
+desc = "Our US Treasury Notes Stablebond offers unparalleled security and peace of mind. Backed by the full faith and credit of the United States government, US Treasury Notes are among the safest investments available worldwide."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-ustry.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "US Treasury Notes"
+status = "test"
+attestation_of_reserve = "https://devnet.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to devnet.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "CETES"
+issuer = "GC3CW7EDYRTWQ635VDIGY6S4ZUF5L6TQ7AA4MWS7LEQDBLUSZXV7UPS4"
+name = "Etherfuse CETES"
+desc = "Etherfuse CETES, officially known as Certificados de la Tesorería de la Federación, are Mexico's oldest short-term debt securities issued by the Ministry of Finance."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "Mexican CETES Bonds"
+status = "test"
+attestation_of_reserve = "https://devnet.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to devnet.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "KTB"
+issuer = "GC3CW7EDYRTWQ635VDIGY6S4ZUF5L6TQ7AA4MWS7LEQDBLUSZXV7UPS4"
+name = "Etherfuse KTB"
+desc = "The Korean Treasury Stablebond provides tokenized exposure to Korean sovereign debt through short-term Korean Treasury Bonds (KTBs)."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-ktb.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "Korean Treasury Bonds"
+status = "test"
+attestation_of_reserve = "https://devnet.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to devnet.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "CARN"
+issuer = "GC3CW7EDYRTWQ635VDIGY6S4ZUF5L6TQ7AA4MWS7LEQDBLUSZXV7UPS4"
+name = "Etherfuse CARN"
+desc = "Brazilian Tesouros are issued by the Brazilian government. As Brazil is the largest and most liquid economy in Latin and South America, these notes are widely considered as a low-risk investment."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-tesouro.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "Brazilian Tesouro Bonds"
+status = "test"
+attestation_of_reserve = "https://devnet.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to devnet.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "CZERO"
+issuer = "GC3CW7EDYRTWQ635VDIGY6S4ZUF5L6TQ7AA4MWS7LEQDBLUSZXV7UPS4"
+name = "Etherfuse CETES ZERO"
+desc = "A special use CETES token that will indefinitely stay at 0% APY"
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-cetes0.png"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+anchor_asset = "MXN"
+status = "test"
+attestation_of_reserve = "https://devnet.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to devnet.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"

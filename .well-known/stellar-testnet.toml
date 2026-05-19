@@ -80,3 +80,14 @@ anchor_asset = "MXN"
 status = "test"
 attestation_of_reserve = "https://devnet.etherfuse.com/legal/proof-of-reserves"
 redemption_instructions = "Go to devnet.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "USDC"
+issuer = "GC3CW7EDYRTWQ635VDIGY6S4ZUF5L6TQ7AA4MWS7LEQDBLUSZXV7UPS4"
+name = "USD Coin (sandbox)"
+desc = "Etherfuse sandbox USDC. Self-issued on testnet to simulate the on/off-ramp flow; NOT real Circle USDC and has no off-chain value."
+image = "https://www.centre.io/images/usdc/usdc-icon-86074d9d49.png"
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+anchor_asset = "USD"
+status = "test"

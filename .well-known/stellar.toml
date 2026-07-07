@@ -106,3 +106,16 @@ anchor_asset = "Korean Treasury Bonds"
 status = "live"
 attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
 redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "GILTS"
+issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+name = "Etherfuse GILTS"
+desc = "Etherfuse GILTS provide tokenized exposure to UK sovereign debt through short-term UK Gilts, backed by the full faith and credit of the United Kingdom government."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/spl-gilts.png"
+is_asset_anchored = true
+anchor_asset_type = "bond"
+anchor_asset = "UK Gilts"
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"

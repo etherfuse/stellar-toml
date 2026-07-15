@@ -119,3 +119,16 @@ anchor_asset = "UK Gilts"
 status = "live"
 attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
 redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
+
+[[CURRENCIES]]
+code = "MEXe"
+issuer = "GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC"
+name = "Etherfuse MEXe"
+desc = "Etherfuse MEXe is the Principal Token of Etherfuse CETES — Certificados de la Tesorería de la Federación, Mexico's short-term sovereign debt securities issued by the Ministry of Finance. CETES are BBB- rated, settled through INDEVAL (Instituto para el Depósito de Valores), and underpin Mexico's monetary policy and government financing.\n\nEach MEXe represents the principal claim on one unit of Etherfuse CETES at maturity, separated from the yield component. Holders can unwrap MEXe at any time to recover the underlying CETES at its present value."
+image = "https://stablebonds.s3.us-west-2.amazonaws.com/stablebond/etherfuse_mexe.png"
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+anchor_asset = "Etherfuse CETES"
+status = "live"
+attestation_of_reserve = "https://app.etherfuse.com/legal/proof-of-reserves"
+redemption_instructions = "Go to app.etherfuse.com and offramp to a bank account or exchange for the equivelent USDC of the underlying assets"
